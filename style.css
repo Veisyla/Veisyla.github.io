@@ -27,4 +27,12 @@ div {
     transform: translate(-50%, -50%);
 }
 
+a, a:visited {
+    margin: 20px;
+    font: 20px Cousine;
+    text-align: center;
+    color: #f5c2e7;
+    text-decoration:none;
+}
+
 
