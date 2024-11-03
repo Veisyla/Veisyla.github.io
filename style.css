@@ -10,7 +10,7 @@ html {
     height: 20px;
 }
 
-div {
+.container {
     margin: 0 auto;
     font-family: "Cousine";
     font: 40px Cousine;
