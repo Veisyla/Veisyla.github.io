@@ -2,29 +2,35 @@
 
 
 html {
-    background: url("https://github.com/Veisyla/Wallpapers/blob/main/files/blossoms-catppuccin.png?raw=true") no-repeat center center fixed;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height: 20px;
+    background: #1e1e2e;
 }
 
-div.container {
-    margin: 0 auto;
-    font-family: "Cousine";
-    font: 40px Cousine;
-    color: #cdd6f4;
-    text-align: center;
-    border: solid 2px #f5c2e7;
-    background-color: rgba(30, 30, 46, 0.60);
-    backdrop-filter: blur(15px);
+
+header.main {
+    background: #11111b;
+    margin: -7.5px;
+    position: relative;
+    bottom: 8.15px;
+    display: block;
+    & > h1 {
+            font: 24px Cousine;
+            color: #cdd6f4;
+            margin-left: 5px;
+    }
+}
+
+div.box {
+    border: 2px solid #f5c2e7;
+    box-shadow: 10px 5px 5px #11111b;
     position: absolute;
     left: 50%;
     top: 45%;
     width: 500px;
     height: auto;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: #cdd6f4;
+    font: 24px Cousine;
 }
 
 a, a:visited {
