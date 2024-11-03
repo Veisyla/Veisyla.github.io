@@ -25,12 +25,12 @@ div.box {
     position: absolute;
     left: 50%;
     top: 45%;
-    width: 500px;
+    width: 750px;
     height: auto;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #cdd6f4;
-    font: 24px Cousine;
+    font: 36px Cousine;
 }
 
 a, a:visited {
