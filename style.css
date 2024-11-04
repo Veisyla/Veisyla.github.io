@@ -18,7 +18,7 @@ html {
     max-width: 1500px;
 }
 
-.terminal {
+.terminal, .oops {
     border: 2px solid var(--pink);
     box-shadow: 10px 5px 5px var(--crust);
     color: #cdd6f4;
@@ -34,6 +34,13 @@ a, a:visited {
     font: 24px var(--font);
     color: var(--pink);
     text-decoration: none;
+}
+
+.oops {
+    margin: 0 auto;
+    margin-top: 25vh;
+    max-width: 600px;
+    text-align: center;
 }
 
 
