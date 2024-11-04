@@ -1,44 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --font: Cousine;
+}
 
 html {
-    background: #1e1e2e;
+    background-image: linear-gradient(to right, var(--red),var(--maroon),var(--yellow),var(--green),var(--blue),var(--mauve),var(--pink));
 }
 
-
-header.main {
-    background: #11111b;
-    margin: -7.5px;
-    position: relative;
-    bottom: 8.15px;
-    display: block;
-    & > h1 {
-            font: 24px Cousine;
-            color: #cdd6f4;
-            margin-left: 5px;
-    }
+.terminals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 12px;
+    margin: 0 auto;
+    margin-top: 25vh;
+    max-width: 1500px;
 }
 
-div.box {
-    border: 2px solid #f5c2e7;
-    box-shadow: 10px 5px 5px #11111b;
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    width: 750px;
-    height: auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.terminal {
+    border: 2px solid var(--pink);
+    box-shadow: 10px 5px 5px var(--crust);
     color: #cdd6f4;
-    font: 36px Cousine;
+    font: 24px var(--font);
+    background: var(--base);
+}
+
+.bio {
+    grid-row: 1 / span 2;
 }
 
 a, a:visited {
-    margin: 20px;
-    font: 20px Cousine;
-    text-align: center;
-    color: #f5c2e7;
-    text-decoration:none;
+    font: 24px var(--font);
+    color: var(--pink);
+    text-decoration: none;
 }
+
+
+@media screen and (max-width: 800px) {
+    .terminal {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .terminals {
+        display: inline-block;
+        margin-top: 0;
+    }
+}
+
 
 
