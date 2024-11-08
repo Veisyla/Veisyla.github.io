@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* everything here is temporary */
+
+:root {
+    --font: Cousine;
+}
+
+html {
+    background-color: var(--mantle);
+}
+
+a, a:visited {
+    font: 24px var(--font);
+    color: var(--pink);
+    text-decoration: underline dotted;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.post {
+    margin: 0 auto;
+    max-width: 1500px;
+    color: var(--text);
+    background: var(--base);
+    background-size: cover;
+
+    height: 95vh;
+}
+
+p, h1 {
+    color: var(--font);
+    font: 36px var(--font);
+}
