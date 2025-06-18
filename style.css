@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'DepartureMono';
+    src: url('DepartureMono.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
-    --font: Cousine;
+    --font: DepartureMono;
 }
 
 html {
