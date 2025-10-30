@@ -1,18 +1,23 @@
 @font-face {
-    font-family: 'DepartureMono';
-    src: url('DepartureMono.otf');
+    font-family: 'MapleMonoNormal-Regular';
+    src: url('MapleMonoNormal-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --font: DepartureMono;
+    --font: MapleMonoNormal-Regular;
 }
 
 html {
     width: 100%;
     height: 100vh;
     background-image: repeating-linear-gradient( -45deg, var(--base) 0px, var(--base) 40px, var(--mantle) 72px, var(--mantle) 132px, var(--base) 144px);
+}
+
+p, a {
+    margin: 3px;
+    padding: 5px;
 }
 
 .terminals {
@@ -39,7 +44,7 @@ html {
 }
 
 .highlight2 {
-    color: var(--lavender);
+    color: var(--mauve);
 }
 
 .bio {
